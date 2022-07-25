@@ -1,0 +1,2009 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,400&family=Fredoka+One&family=Inter:wght@500;600&family=Open+Sans:wght@600&family=Roboto:wght@500;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF !important;
+  padding: 0px 100px;
+  /* box-shadow: 0 4px 2px -2px rgba(0,0,0,.2); */
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+  align-items: center;
+  justify-content: center;
+}
+
+.max-width {
+  padding: 0px 100px;
+}
+
+.Emax-width {
+  padding: 0px 100px;
+}
+
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  margin-right: 20px;
+  color: #000000 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.navlink1,
+.nav-link:hover {
+  color: #6927FF !important;
+}
+
+.navbar .btn-primary,
+.offcanvas-body .btn-primary {
+  width: 305px;
+  height: 52px;
+  background: #FF6363;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  border: none;
+}
+
+.btn-close {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  background-color: #FF6363 !important;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 1200px) {
+  .offcanvas-body .nav-link {
+
+    border-bottom: 2px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 305px;
+    height: 52px;
+  }
+
+  .justify-content-center {
+    justify-content: start !important;
+  }
+
+  .offcanvas-body .btn-primary {
+    margin-top: 30px;
+  }
+
+  .offcanvas-body {
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-items: center; */
+  }
+}
+
+
+.navbar-light .navbar-toggler {
+  background-color: #FF6363 !important;
+  color: #FF6363 !important;
+  border-color: #FF6363 !important;
+}
+
+
+/* Home Page */
+
+.home {
+  padding-top: 100px;
+}
+
+.leftCont,
+.rightcont {
+  margin-top: 59px;
+}
+
+
+
+.leftCont .heading h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.leftCont .heading h1 span {
+  font-family: 'Lato', sans-serif;
+  color: #6927FF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.leftCont .Para {
+  margin-top: 59px;
+  /* height: 115px;
+  width: 564px; */
+}
+
+.leftCont .Para p {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.leftCont .tick {
+  margin-top: 59px;
+}
+
+.leftCont .tick .box {
+  width: 72px;
+}
+
+.leftCont .tick .box .boxH {
+  display: flex;
+  justify-content: center;
+}
+
+.leftCont .tick .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14C38E;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  color: white;
+
+}
+
+.leftCont .tick .icons span {
+  position: absolute;
+  font-size: 20px;
+}
+
+.leftCont .tick .cont {
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.leftCont .button {
+  margin-top: 74px;
+}
+
+.leftCont .button .btn {
+  width: 560px;
+  height: 68px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  background-color: #6927FF;
+}
+
+.rightcont {
+  display: flex;
+  justify-content: center;
+}
+
+.rightcont img {
+  height: 550px;
+  width: 525px;
+}
+
+/* Block Style */
+
+.block {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.bcol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block .bCard {
+  width: 192px;
+  height: 184px;
+  box-shadow: 2px 1px 8px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.block .bHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.block .bCard .cCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+
+}
+
+.block .bCard .c1 {
+  background-color: #F8B400;
+}
+
+.block .bCard .c2 {
+  background-color: #FF6363;
+}
+
+.block .bCard .c3 {
+  background-color: #14C38E;
+}
+
+.block .bCard h1 {
+  margin-top: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.block .bCard .h1 {
+  color: #F8B400;
+}
+
+.block .bCard .h2 {
+  color: #FF6363;
+}
+
+.block .bCard .h3 {
+  color: #14C38E;
+}
+
+.block .bCard .bp {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px !important;
+  line-height: 18px;
+  color: #000000;
+}
+
+.block .bar {
+  width: 165px;
+  height: 0px;
+  background-color: #C4C4C4;
+  border: 2px solid #C4C4C4;
+}
+
+/* About Styling */
+
+.about {
+  padding-top: 30px;
+  background: #F8F8F8;
+}
+
+.about .aMainHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .aMainHeading .cont {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+}
+
+.about .aMainHeading span {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #14C38E;
+}
+
+.about .aCardCont {
+  padding: 60px 0;
+}
+
+.about .aCardCont .aCol {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.about .aCardCont .aC1 {
+  justify-content: end;
+}
+
+.about .aCardCont .aC2 {
+  justify-content: start;
+}
+
+.about .aCardCont .aCol .aCard {
+  width: 395px;
+  height: 310px;
+  background: #FFFFFF;
+  box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.about .ahead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .aCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.about .a1 {
+  background-color: #6927FF;
+}
+
+.about .a2 {
+  background-color: #FF6363;
+}
+
+.about .a3 {
+  background-color: #14C38E;
+}
+
+.about .a4 {
+  background-color: #F8B400;
+}
+
+.about .a5 {
+  background-color: #8A39E1;
+}
+
+.about .a6 {
+  background-color: #14C38E;
+}
+
+.about .aCardCont .aCol .aCard h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  margin-top: 30px;
+}
+
+.about .aCardCont .aCol .aCard .ap {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+/* Connect Styling */
+
+.connect {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+/* .connect .cCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.connect .cMhead,
+.mentor .mHead,
+.stories .sHead {
+  width: 100%;
+  font-family: Fredoka;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.connect .cp,
+.mentor .mp {
+  width: 100%;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.connect .cbtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 66px;
+}
+
+.connect .btn {
+  width: 420px;
+  height: 68px;
+  background-color: #14C38E;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.connect .cImg {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.connect .cImg img {
+  width: 1036.82px;
+  height: 388px;
+}
+
+/* Mentor Styling */
+
+.mentor {
+  background: linear-gradient(180deg, #F8F8F8 0%,
+      rgba(248, 248, 248, 0) 100%);
+  padding: 50px 0 150px 0;
+}
+
+.mentor .mImg {
+  background-image: url(mentorbg.png);
+  height: 760px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mentor .mbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.mentor .mbtn .btn {
+  width: 207px;
+  height: 52px;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.mentor .mbtn .btn1 {
+  background: #6927FF;
+  margin-right: 43px;
+  color: #FFFFFF;
+}
+
+.mentor .mbtn .btn2 {
+  background: linear-gradient(180deg, #F8F8F8 0%,
+      rgba(248, 248, 248, 0) 100%);
+  color: #6927FF;
+}
+
+.mentor .mbtn .btn3 {
+  background-color: #6927FF;
+  margin-top: 80px;
+}
+
+.mentor .Mhead {
+  margin-top: 134px;
+}
+
+.mentor .row {
+  margin-top: 63px;
+}
+
+.mentor .col,
+.stories .col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mentor .ocard {
+  width: 242px;
+  height: 292px;
+  padding-top: 20px;
+  box-shadow: 2.01688px 1.00844px 4.03376px rgba(0, 0, 0, 0.1);
+  border-radius: 6.05063px;
+}
+
+.mentor .o1 {
+  background: #F8B400;
+}
+
+.mentor .o2 {
+  background: #14C38E;
+}
+
+.mentor .o3 {
+  background: #837DFF;
+}
+
+.mentor .o4 {
+  background: #FF6363;
+}
+
+.mentor .ocard .ocenter {
+  display: flex;
+  justify-content: center;
+}
+
+.mentor .ocard .ocircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 172px;
+  height: 172px;
+  border: 0.950276px dashed #FFFFFF;
+  border-radius: 50%;
+}
+
+.mentor .ocard .ocircle img {
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+}
+
+.mentor .ocard h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+/* Stories Styling */
+
+.stories {
+  background: linear-gradient(90deg, rgba(105, 39, 255, 0.22) 0%,
+      rgba(84, 255, 203, 0.44) 49.8%,
+      rgba(255, 99, 99, 0.27) 77.65%,
+      rgba(248, 180, 0, 0.27) 98.99%);
+  padding: 100px 0;
+}
+
+.stories .sCard {
+  width: 462px;
+  height: 404px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  margin-top: 65px;
+}
+
+.stories .sCard .sCHead {
+  padding: 30px 0 20px 30px;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.stories .sCard .sCHead img {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.stories .sCard .sCHead h2 {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.stories .sCard .sp {
+  padding: 20px 30px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.0015em;
+  color: #000000;
+}
+
+/* Questions Styling */
+
+.quest {
+  background-color: #F8F8F8;
+  padding: 100px 0;
+}
+
+.quest .col {
+  display: flex;
+  justify-content: center;
+}
+
+.quest .col .rowH,
+.form1 .rowH {
+  font-family: 'Fredoka', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.quest .col .row {
+  display: flex;
+  justify-content: center;
+}
+
+.quest .col .rowc {
+  width: 533px;
+  height: 108px;
+  background: #FFFFFF;
+  box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-top: 33px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  border-bottom: 5px solid #14C38E;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.quest .book {
+  background: url(./questbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 372.51px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quest .book .bookcont h1 {
+  font-family: 'Fredoka', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.quest .book .bookcont .bookbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.quest .book .bookcont .bookbtn .btn {
+  margin-top: 70px;
+  width: 440px;
+  height: 68px;
+  background: #14C38E;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+/* Mail Styling */
+
+.mail {
+  padding: 50px 0;
+  background: #FFFFFF;
+}
+
+.mail .mhead {
+  font-family: 'Fredoka', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  text-align: center;
+}
+
+.mail .container {
+  margin-top: 100px;
+}
+
+.mail .container .col {
+  display: flex;
+  justify-content: center;
+}
+
+.mail .maCard {
+  width: 432px;
+  height: 214px;
+  border: 1px solid #FF6363;
+  box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.mail .maH {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.mail .maCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 71px;
+  height: 71px;
+  background: #FF6363;
+  border-radius: 50%;
+}
+
+.mail .maCard h1 {
+  /* display: inline; */
+  margin-left: -20px;
+  font-family: 'Fredoka', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.mail .maCard h2 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: center;
+}
+
+/* Contact Styling */
+
+.contact {
+  padding: 100px 0;
+  background: #F8F8F8;
+}
+
+.contact .col1 {
+  background: url(./contactbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactf {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Contactform Styling */
+
+.form1 .rowH {
+  margin-left: 5px;
+  margin-bottom: 90px;
+}
+
+.form1 .row1,
+.form1 .row2 {
+  margin-top: 45px;
+}
+
+.form1 label {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.form1 .row1 input {
+  width: 217px;
+  height: 42px;
+  padding: 10px;
+  border: 1px solid #C4C4C4;
+  border-radius: 6px;
+  background: #F8F8F8;
+}
+
+.form1 .row2 textarea {
+  width: 522px;
+  height: 169px;
+  border: 1px solid #C4C4C4;
+  border-radius: 6px;
+  margin-left: 12px;
+  background: #F8F8F8;
+}
+
+.form1 .row1 .error,
+.form1 .row2 .error {
+  color: red;
+}
+
+.form1 button {
+  width: 325px;
+  height: 52px;
+  border: 1px solid #6927FF;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #6927FF;
+  margin-left: 12px;
+  background: #F8F8F8;
+}
+
+/* Footer Styling */
+
+.footer {
+  background: url(./footerbg1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-color: #F8F8F8;
+  height: 487px;
+}
+
+.footer .col {
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer .logo {
+  width: 182px;
+}
+
+.footer .col .h3l {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.footer .contH h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 53px;
+}
+
+.footer .contC {
+  /* display: block; */
+}
+
+.footer .contC a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: left;
+  margin-top: 23px;
+}
+
+.footer a .imgC {
+  display: inline;
+  margin-right: 8px;
+}
+
+/* Mobile View Styling */
+
+@media (max-width: 1400px) {
+
+  .max-width {
+    padding: 0px 50px;
+  }
+
+  .navbar {
+    padding: 0px 50px;
+  }
+
+  .leftCont .heading h1 {
+    font-size: 40px;
+  }
+
+  .leftCont .heading h1 span {
+    font-size: 40px;
+  }
+
+  .leftCont .Para p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .leftCont .tick .icons {
+    height: 23px;
+    width: 23px;
+  }
+
+  .leftCont .tick .icons span {
+    font-size: 18px;
+  }
+
+  .leftCont .tick .cont {
+    font-size: 15px;
+  }
+
+  .leftCont .tick .box {
+    width: 66px;
+  }
+
+  .leftCont .button {
+    margin-top: 66px;
+  }
+
+  .leftCont .button .btn {
+    width: 480px;
+    height: 55px;
+    font-size: 15px;
+  }
+
+  .rightcont img {
+    height: 500px;
+    width: 475px;
+  }
+
+  .quest img {
+    width: 450px;
+    height: 479px;
+  }
+
+  .quest .col .rowH,
+  .form1 .rowH {
+    font-size: 34px;
+  }
+
+  .quest .col .rowc {
+    width: 500px;
+    height: 98px;
+    font-size: 18px;
+    padding: 0 16px;
+    margin-top: 30px;
+  }
+
+}
+
+@media (max-width: 1203px) {
+
+  .leftCont .heading h1,
+  .leftCont .heading h1 span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .leftCont .Para,
+  .leftCont .tick,
+  .leftCont .button {
+    margin-top: 29px;
+  }
+
+  .leftCont .Para p {
+    font-size: 15px;
+  }
+
+  .leftCont .tick .box {
+    width: 52px;
+  }
+
+  .leftCont .tick .icons {
+    height: 18px;
+    width: 18px;
+  }
+
+  .leftCont .tick .icons span {
+    font-size: 12px;
+  }
+
+  .leftCont .tick .cont {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .leftCont .button .btn,
+  .connect .btn,
+  .quest .book .bookcont .bookbtn .btn {
+    width: 430px;
+    height: 48px;
+    font-size: 13px;
+  }
+
+  .rightcont img {
+    height: 430px;
+    width: 400px;
+  }
+
+  /* Block Style */
+
+  .block {
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+
+  .block .bCard {
+    width: 152px;
+    height: 144px;
+  }
+
+  .block .bHead {
+    margin-top: -25px;
+  }
+
+  .block .bCard .cCircle {
+    width: 52px;
+    height: 52px;
+  }
+
+  .block .bCard .c1 img {
+    width: 25.69px;
+    height: 17.3px;
+  }
+
+  .block .bCard .c2 img {
+    width: 30.69px;
+    height: 25.3px;
+  }
+
+  .block .bCard .c3 img {
+    width: 29.69px;
+    height: 22.3px;
+  }
+
+  .block .bCard h1 {
+    font-size: 30px;
+    line-height: 25px;
+  }
+
+  .block .bCard .bp {
+    font-size: 14px !important;
+    line-height: 15px;
+  }
+
+  .block .bar {
+    width: 152px;
+  }
+
+  /* About Styling */
+  .about .aMainHeading .cont,
+  .about .aMainHeading span,
+  .connect .cMhead,
+  .mentor .mHead,
+  .stories .sHead,
+  .mail .mhead {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .about .aCardCont {
+    padding: 40px 0;
+  }
+
+  .about .aCardCont .aCol .aCard {
+    width: 300px;
+    height: 300px;
+  }
+
+  .about .aCardCont .aCol .aCard .ap,
+  .connect .cp,
+  .mentor .mp {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .connect .cImg img {
+    width: 836.82px;
+    height: 288px;
+  }
+
+  .mentor .ocard {
+    width: 198px;
+    height: 248px;
+  }
+
+  .mentor .ocard .ocircle {
+    width: 142px;
+    height: 142px;
+  }
+
+  .mentor .ocard .ocircle img {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+  }
+
+  .stories .sCard {
+    width: 362px;
+    height: 308px;
+  }
+
+  .stories .sCard .sCHead {
+    padding: 20px 0 10px 20px;
+  }
+
+  .stories .sCard .sCHead img {
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+  }
+
+  .stories .sCard .sCHead h2 {
+    font-size: 20px;
+  }
+
+  .stories .sCard .sp {
+    padding: 10px 20px;
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .quest {
+    padding: 70px 0;
+  }
+
+  .quest img {
+    width: 350px;
+    height: 379px;
+  }
+
+  .quest .col .rowH,
+  .form1 .rowH,
+  .quest .book .bookcont h1 {
+    font-size: 29px;
+    line-height: 34px;
+  }
+
+  .quest .col .rowc {
+    width: 400px;
+    height: 78px;
+    font-size: 18px;
+    padding: 0 16px;
+    margin-top: 25px;
+  }
+
+  .quest .book {
+    height: 332.51px;
+    margin-top: 70px;
+    background-size: contain;
+  }
+
+  .mail .container {
+    margin-top: 70px;
+  }
+
+  .mail .maCard {
+    width: 332px;
+    height: 194px;
+  }
+
+  .contact {
+    padding: 70px 0;
+  }
+
+  .contact .col1 {
+    width: 320px;
+    height: 359px;
+    background-size: contain;
+  }
+
+  .contact .col1 img {
+    width: 370px;
+    height: 229px;
+  }
+
+  .form1 .rowH {
+    margin-bottom: 40px;
+  }
+
+  .form1 label {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+
+  .form1 .row1 input {
+    width: 181px;
+    height: 32px;
+    padding: 10px;
+  }
+
+  .form1 .row2 textarea {
+    width: 402px;
+    height: 169px;
+    margin-left: 8px;
+  }
+
+  .form1 button {
+    width: 225px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .footer {
+    height: 500px;
+    /* background-size: cover; */
+  }
+
+  .footer .col {
+    margin-top: 200px;
+
+  }
+
+  .footer .logo {
+    width: 152px;
+    padding: 0 0 10px 0;
+  }
+
+  .footer .col .h3l {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .footer .contH h2 {
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 33px;
+  }
+
+  .footer .contC a {
+    font-size: 18px;
+    line-height: 10px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1007px) {
+
+  .leftCont .heading h1,
+  .leftCont .heading h1 span {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .leftCont .Para,
+  .leftCont .tick,
+  .leftCont .button {
+    margin-top: 39px;
+  }
+
+  .leftCont .Para p {
+    font-size: 20px;
+  }
+
+  .leftCont .tick .box {
+    width: 72px;
+  }
+
+  .leftCont .tick .icons {
+    height: 28px;
+    width: 28px;
+  }
+
+  .leftCont .tick .icons span {
+    font-size: 22px;
+  }
+
+  .leftCont .tick .cont {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .leftCont .button .btn,
+  .connect .btn,
+  .quest .book .bookcont .bookbtn .btn {
+    width: 530px;
+    height: 58px;
+    font-size: 17px;
+  }
+
+  .rightcont img {
+    height: 530px;
+    width: 500px;
+  }
+
+  /* Block Style */
+
+  .block {
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+
+  .block .row {
+    display: block;
+    padding: 0 50px;
+  }
+
+  .block .bCard {
+    margin-top: 100px;
+    width: 252px;
+    height: 244px;
+  }
+
+  .block .bHead {
+    margin-top: -45px;
+  }
+
+  .block .bCard .cCircle {
+    width: 82px;
+    height: 82px;
+  }
+
+  .block .bCard .c1 img {
+    width: 45.69px;
+    height: 37.3px;
+  }
+
+  .block .bCard .c2 img {
+    width: 55.69px;
+    height: 45.3px;
+  }
+
+  .block .bCard .c3 img {
+    width: 49.69px;
+    height: 42.3px;
+  }
+
+  .block .bCard h1 {
+    font-size: 40px;
+    line-height: 35px;
+  }
+
+  .block .bCard .bp {
+    font-size: 22px !important;
+    line-height: 29px;
+  }
+
+  .block .bar {
+    display: none;
+  }
+
+  /*About Styling */
+
+  .about .aMainHeading .cont,
+  .about .aMainHeading span,
+  .connect .cMhead,
+  .mentor .mHead,
+  .stories .sHead,
+  .mail .mhead {
+    font-size: 48px;
+    line-height: 44px;
+  }
+
+  .about .aCardCont .aC1,
+  .about .aCardCont .aC2 {
+    justify-content: center;
+  }
+
+  /* .about .aCardCont {
+    padding: 40px 0;
+  }
+
+  .about .aCardCont .aCol .aCard {
+    width: 300px;
+    height: 300px;
+  } */
+
+  .about .aCardCont .aCol .aCard .ap,
+  .connect .cp,
+  .mentor .mp {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .connect .cImg img {
+    width: 636.82px;
+    height: 178px;
+  }
+
+
+
+  .mentor .ocard {
+    width: 240px;
+    height: 248px;
+  }
+
+  .mentor .ocard .ocircle {
+    width: 102px;
+    height: 102px;
+  }
+
+  .mentor .ocard .ocircle img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mentor h2 {}
+
+  /* .stories .sCard {
+    width: 362px;
+    height: 308px;
+  }
+
+  .stories .sCard .sCHead {
+    padding: 20px 0 10px 20px;
+  }
+  .stories .sCard .sCHead img {
+    width: 54px;
+    height: 54px;
+    margin-right: 10px;
+  }
+  .stories .sCard .sCHead h2 {
+    font-size: 20px;
+  }
+  .stories .sCard .sp {
+    padding: 10px 20px;
+    font-size: 17px;
+    line-height: 22px;
+  } */
+
+  .quest {
+    padding: 70px 0;
+  }
+
+  .quest img {
+    width: 450px;
+    height: 479px;
+  }
+
+  .quest .col .rowH,
+  .form1 .rowH {
+    font-size: 39px;
+    line-height: 44px;
+    margin: 50px 0;
+  }
+
+  .quest .book .bookcont h1 {
+    font-size: 32px;
+  }
+
+  .quest .col .rowc {
+    width: 450px;
+    height: 88px;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+
+  /* .quest .book {
+    height: 332.51px;
+    margin-top: 70px;
+    background-size: contain;
+  } */
+
+  /* 
+  .mail .container {
+    margin-top: 70px;
+  }
+  .mail .maCard {
+    width: 332px;
+    height: 194px;
+  } */
+  .contact {
+    padding: 70px 0;
+  }
+
+  .contact .col1 {
+    width: 420px;
+    height: 459px;
+    background-size: contain;
+  }
+
+  .contact .col1 img {
+    width: 470px;
+    height: 329px;
+  }
+
+  .form1 .rowH {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form1 .row1,
+  .form1 .row2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form1 label {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .form1 .row1 input {
+    width: 281px;
+    height: 42px;
+  }
+
+  .form1 .row2 textarea {
+    width: 642px;
+    height: 169px;
+  }
+
+  .form1 button {
+    width: 325px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .footer {
+    height: 400px;
+    background-size: cover;
+  }
+
+  .footer .col {
+    margin-top: 180px;
+
+  }
+
+  /* .footer .logo {
+    width: 152px;
+    padding: 0 0 10px 0;
+  } */
+  .footer .col .h3l {
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .footer .contH h2 {
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 33px;
+  }
+
+  .footer .contC a {
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .max-width {
+    padding: 0px 20px;
+  }
+
+  .navbar {
+    padding: 0px 20px;
+  }
+
+  .Emax-width {
+    padding: 0px 0px;
+  }
+
+  .leftCont .heading h1,
+  .leftCont .heading h1 span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .leftCont .Para,
+  .leftCont .tick,
+  .leftCont .button {
+    margin-top: 25px;
+  }
+
+  .leftCont .Para p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .leftCont .tick .box {
+    width: 42px;
+  }
+
+  .leftCont .tick .icons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .leftCont .tick .icons span {
+    font-size: 15px;
+  }
+
+  .leftCont .tick .cont {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .leftCont .button .btn,
+  .connect .btn,
+  .quest .book .bookcont .bookbtn .btn {
+    width: 250px;
+    height: 35px;
+    font-size: 9px;
+  }
+
+  .rightcont img {
+    height: 260px;
+    width: 240px;
+  }
+
+  /* Block Style */
+
+  .block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .block .row {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .block .bCard {
+    margin-top: 70px;
+    padding: 0 20px;
+  }
+
+  /*About Styling */
+
+  .about .aMainHeading .cont,
+  .about .aMainHeading span,
+  .connect .cMhead,
+  .mentor .mHead,
+  .stories .sHead,
+  .mail .mhead {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .about .aCardCont .aCol .aCard .ap,
+  .connect .cp,
+  .mentor .mp {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .connect .cbtn {
+    margin-top: 36px;
+  }
+
+  .connect .cImg img {
+    width: 280px;
+    height: 78px;
+  }
+
+  .mentor .mImg {
+    height: 360px;
+    background-size: cover;
+    margin-top: 20px;
+  }
+
+  .mentor .mImg img {
+    height: 101px;
+    width: 280px;
+  }
+
+  .mentor .mbtn .btn {
+    width: 207px;
+    height: 37px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .mentor .row {
+    display: flex;
+  }
+
+  .mentor .ocard {
+    width: 180px;
+    height: 208px;
+  }
+
+  .mentor .ocard .ocircle {
+    width: 82px;
+    height: 82px;
+  }
+
+  .mentor .ocard .ocircle img {
+    width: 72px;
+    height: 72px;
+  }
+
+  .mentor .ocard h2 {
+    font-size: 20px;
+  }
+
+  .stories .sCard {
+    width: 350px;
+    height: 308px;
+    margin-top: 20px;
+  }
+
+  .stories .sCard .sp {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .quest {
+    padding: 20px 0;
+  }
+
+  .quest img {
+    width: 350px;
+    height: 389px;
+  }
+
+  .quest .col .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .quest .col .rowH,
+  .form1 .rowH {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 20px 0;
+  }
+
+  .quest .book .bookcont h1 {
+    font-size: 12px;
+  }
+
+  .quest .col .rowc {
+    width: 350px;
+    height: 88px;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 15px;
+  }
+
+  .quest .book {
+    height: 122.51px;
+    margin-top: 39px;
+  }
+
+  .quest .book .bookcont h1 {
+    font-size: 12px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .quest .book .bookcont .bookbtn .btn {
+    margin: 0;
+    width: 162px;
+  }
+
+  .mail {
+    padding: 20px 0;
+  }
+
+  .mail .container {
+    margin-top: 30px;
+  }
+
+  .mail .maCard {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+  }
+
+  .mail .maH {
+    margin: 16px 0;
+  }
+
+  .mail .maCircle {
+    width: 51px;
+    height: 51px;
+  }
+
+  .mail .maCircle img {
+    width: 25px;
+  }
+
+  .mail .maH h1 {
+    font-size: 26px;
+    line-height: 29px;
+    margin-left: -15px;
+  }
+
+  .mail .maCard h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .contact {
+    padding: 30px 0;
+  }
+
+  .contact .col1 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .contact .col1 img {
+    width: 350px;
+    height: 299px;
+  }
+
+  .form1 .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .form1 .row,
+  .form1 .row .col {
+    display: grid;
+    justify-content: center;
+  }
+
+  .form1 .row1 {
+    margin-top: 0px;
+  }
+
+  .form1 .row1 .col,
+  .form1 .row2 {
+    margin-top: 25px;
+  }
+
+
+  .form1 .row2 label {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+
+  .form1 .row1 input {
+    width: 340px;
+    height: 45px;
+  }
+
+  .form1 .row2 textarea {
+    width: 340px;
+    height: 169px;
+  }
+
+  .form1 button {
+    width: 340px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .footer {
+    background: url(mfg.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: cover;
+
+  }
+
+
+
+  .footer .col {
+    margin-top: 75px;
+  }
+
+  /* .footer .row {
+    display: block;
+  } */
+
+  .footer .logo {
+    width: 70px;
+  }
+
+  .footer .col .h3l {
+    font-size: 8px;
+    line-height: 8px;
+    margin-left: 14px;
+    margin-top: 02px;
+    text-align: left;
+  }
+
+  .footer .contH h2 {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+  }
+
+  .ccc {
+    /* display: none; */
+  }
+
+  .footer a .imgC {
+    display: inline-block;
+    margin-right: 2px;
+    height: 9.666666984558105px;
+    width: 10.33333396911621px;
+    margin-bottom: 2px;
+  }
+
+  .footer .contC a {
+    font-size: 8px;
+    line-height: 10px;
+    margin-top: 5px;
+  }
+}
