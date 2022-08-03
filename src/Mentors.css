@@ -1,0 +1,44 @@
+.mentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.mentos img {
+    width: 100%;
+}
+
+.minBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.menBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ourMen {
+    width: 50%;
+    font-size: 5rem;
+}
+
+@media (max-width: 1024px) {
+    .minBanner img {
+        width: 100%;
+    }
+
+    .ourMen {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .menBanner {
+        flex-direction: column;
+    }
+
+}

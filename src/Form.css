@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.formDiv {
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .form {
+        height: 800px;
+    }
+
+    .formDiv {
+        width: 100%;
+
+    }
+
+}
